@@ -1,0 +1,25 @@
+
+création d'une vue
+
+classes JFrame
+composants : JTextField
+             JButton
+             JLabel
+
+on crée une JFrame
+on crée les différents composants de notre vue
+
+on affecte un layout à notre JFrame
+
+on ajoute les composants au JPanel de cette JFrame.
+
+
+Utilisation du Pattern OBSERVER
+
+notion de sujet et d'observeurs
+
+dans cet exemple le sujet est le modéle. on va donc faire hériter le modéle de la classe Observable.
+
+nous avons dû dans cet exemple créer une classe JLabelOserver qui hérite de la classe JLabel et implémente l'interface Observer.
+
+
